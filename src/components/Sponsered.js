@@ -6,7 +6,7 @@ const Sponsered = () => {
     <div className="sponsered-section mt-5 full-width">
       {/* <h1 className="text-[20px] font-semibold">Sponsered</h1> */}
       <Image
-        src="/_next/static/media/LastOffer.png"
+        src="https://res.cloudinary.com/dumrq9zcw/image/upload/v1736074528/LastOffer_cdxafn.png"
         alt="lastOffer"
         width={351}
         height={292}

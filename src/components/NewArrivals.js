@@ -5,7 +5,7 @@ const NewArrivals = () => {
   return (
     <div className="mt-5 full-width">
       <Image
-        src="/_next/static/media/SummerSale.png"
+        src="https://res.cloudinary.com/dumrq9zcw/image/upload/v1736074986/Mask_Group_4_qsh7e5.png"
         width={343}
         height={200}
         className="full-width"

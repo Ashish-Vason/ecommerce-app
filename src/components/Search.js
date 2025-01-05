@@ -1,28 +1,6 @@
 import React from 'react';
 
 const Search = () => {
-  const products = [
-    {
-      imageUrl: '/_next/static/media/Kurti.png',
-      productName: 'Women Printed Kurta',
-      description: 'Neque porro quisquam est qui dolorem ipsum quia',
-      priceInRupees: '₹1500',
-      price: 1500,
-      MRP: '₹2499',
-      discount: 40,
-      rating: 56890,
-    },
-    {
-      imageUrl: '/_next/static/media/HRX.png',
-      productName: 'HRX by Hrithik Roshan',
-      description: 'Neque porro quisquam est qui dolorem ipsum quia',
-      priceInRupees: '₹2499',
-      price: 1500,
-      MRP: '₹4999',
-      discount: 50,
-      rating: 344567,
-    },
-  ];
   return (
     <div className="search-container relative bg-white border-black border flex items-center justify-between h-[40px] mt-5 rounded-md">
       <svg

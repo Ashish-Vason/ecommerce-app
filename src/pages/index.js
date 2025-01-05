@@ -13,7 +13,8 @@ import Footer from '@/components/Footer';
 export default function Home() {
   const products = [
     {
-      imageUrl: '/_next/static/media/Kurti.png',
+      imageUrl:
+        'https://res.cloudinary.com/dumrq9zcw/image/upload/v1736074986/Mask_Group_zkngz7.png',
       productName: 'Women Printed Kurta',
       description: 'Neque porro quisquam est qui dolorem ipsum quia',
       priceInRupees: '₹1500',
@@ -23,7 +24,8 @@ export default function Home() {
       rating: 56890,
     },
     {
-      imageUrl: '/_next/static/media/HRX.png',
+      imageUrl:
+        'https://res.cloudinary.com/dumrq9zcw/image/upload/v1736074986/Mask_Group_1_fgps1w.png',
       productName: 'HRX by Hrithik Roshan',
       description: 'Neque porro quisquam est qui dolorem ipsum quia',
       priceInRupees: '₹2499',
@@ -33,7 +35,8 @@ export default function Home() {
       rating: 344567,
     },
     {
-      imageUrl: '/_next/static/media/Philips.png',
+      imageUrl:
+        'https://res.cloudinary.com/dumrq9zcw/image/upload/v1736074986/Mask_Group_2_r2kvq1.png',
       productName: 'Philips BHH880/10',
       description: 'Neque porro quisquam est qui dolorem ipsum quia',
       priceInRupees: '₹999',
@@ -43,7 +46,8 @@ export default function Home() {
       rating: 27344,
     },
     {
-      imageUrl: '/_next/static/media/Titan.png',
+      imageUrl:
+        'https://res.cloudinary.com/dumrq9zcw/image/upload/v1736074986/Mask_Group_3_khr8m3.png',
       productName: 'TITAN Men Watch- 1806N ',
       description: 'Neque porro quisquam est qui dolorem ipsum quia',
       priceInRupees: '₹13499',
@@ -53,7 +57,8 @@ export default function Home() {
       rating: 344567,
     },
     {
-      imageUrl: '/_next/static/media/Kurti.png',
+      imageUrl:
+        'https://res.cloudinary.com/dumrq9zcw/image/upload/v1736074986/Mask_Group_zkngz7.png',
       productName: 'Women Printed Kurta',
       description: 'Neque porro quisquam est qui dolorem ipsum quia',
       priceInRupees: '₹1500',
@@ -63,7 +68,8 @@ export default function Home() {
       rating: 56890,
     },
     {
-      imageUrl: '/_next/static/media/HRX.png',
+      imageUrl:
+        'https://res.cloudinary.com/dumrq9zcw/image/upload/v1736074986/Mask_Group_1_fgps1w.png',
       productName: 'HRX by Hrithik Roshan',
       description: 'Neque porro quisquam est qui dolorem ipsum quia',
       priceInRupees: '₹2499',
@@ -73,7 +79,8 @@ export default function Home() {
       rating: 344567,
     },
     {
-      imageUrl: '/_next/static/media/Philips.png',
+      imageUrl:
+        'https://res.cloudinary.com/dumrq9zcw/image/upload/v1736074986/Mask_Group_2_r2kvq1.png',
       productName: 'Philips BHH880/10',
       description: 'Neque porro quisquam est qui dolorem ipsum quia',
       priceInRupees: '₹999',
@@ -83,7 +90,8 @@ export default function Home() {
       rating: 27344,
     },
     {
-      imageUrl: '/_next/static/media/Titan.png',
+      imageUrl:
+        'https://res.cloudinary.com/dumrq9zcw/image/upload/v1736074986/Mask_Group_3_khr8m3.png',
       productName: 'TITAN Men Watch- 1806N ',
       description: 'Neque porro quisquam est qui dolorem ipsum quia',
       priceInRupees: '₹13499',
@@ -91,6 +99,97 @@ export default function Home() {
       MRP: '₹17999',
       discount: 30,
       rating: 344567,
+    },
+  ];
+
+  const shopCards = [
+    {
+      imageUrl:
+        'https://res.cloudinary.com/dumrq9zcw/image/upload/v1736074987/unsplash_0vsk2_9dkqo_ykww8o.png',
+      productName: 'Womem Skirt ',
+      description: 'Neque porro quisquam est qui dolorem ipsum quia',
+      priceInRupees: '₹999',
+      price: 13499,
+      MRP: '₹2999',
+      discount: 50,
+      rating: 344567,
+    },
+    {
+      imageUrl:
+        'https://res.cloudinary.com/dumrq9zcw/image/upload/v1736075670/unsplash_yTBMYCcZQRs_ctzzxx.png',
+      productName: 'Nikon Professional Camera ',
+      description: 'Neque porro quisquam est qui dolorem ipsum quia',
+      priceInRupees: '₹17999',
+      price: 13499,
+      MRP: '₹22999',
+      discount: 20,
+      rating: 4567,
+    },
+    {
+      imageUrl:
+        'https://res.cloudinary.com/dumrq9zcw/image/upload/v1736075669/unsplash_0vsk2_9dkqo_1_kq0xxq.png',
+      productName: "Men's Jacket",
+      description: 'Neque porro quisquam est qui dolorem ipsum quia',
+      priceInRupees: '₹7999',
+      price: 13499,
+      MRP: '₹11999',
+      discount: 40,
+      rating: 14567,
+    },
+    {
+      imageUrl:
+        'https://res.cloudinary.com/dumrq9zcw/image/upload/v1736075871/unsplash_yTBMYCcZQRs_1_r0yjdy.png',
+      productName: 'Black Dress',
+      description: 'Neque porro quisquam est qui dolorem ipsum quia',
+      priceInRupees: '₹1999',
+      price: 13499,
+      MRP: '₹3999',
+      discount: 70,
+      rating: 1567,
+    },
+    {
+      imageUrl:
+        'https://res.cloudinary.com/dumrq9zcw/image/upload/v1736074987/unsplash_0vsk2_9dkqo_ykww8o.png',
+      productName: 'Womem Skirt ',
+      description: 'Neque porro quisquam est qui dolorem ipsum quia',
+      priceInRupees: '₹999',
+      price: 13499,
+      MRP: '₹2999',
+      discount: 50,
+      rating: 344567,
+    },
+    {
+      imageUrl:
+        'https://res.cloudinary.com/dumrq9zcw/image/upload/v1736075670/unsplash_yTBMYCcZQRs_ctzzxx.png',
+      productName: 'Nikon Professional Camera ',
+      description: 'Neque porro quisquam est qui dolorem ipsum quia',
+      priceInRupees: '₹17999',
+      price: 13499,
+      MRP: '₹22999',
+      discount: 20,
+      rating: 4567,
+    },
+    {
+      imageUrl:
+        'https://res.cloudinary.com/dumrq9zcw/image/upload/v1736075669/unsplash_0vsk2_9dkqo_1_kq0xxq.png',
+      productName: "Men's Jacket",
+      description: 'Neque porro quisquam est qui dolorem ipsum quia',
+      priceInRupees: '₹7999',
+      price: 13499,
+      MRP: '₹11999',
+      discount: 40,
+      rating: 14567,
+    },
+    {
+      imageUrl:
+        'https://res.cloudinary.com/dumrq9zcw/image/upload/v1736075871/unsplash_yTBMYCcZQRs_1_r0yjdy.png',
+      productName: 'Black Dress',
+      description: 'Neque porro quisquam est qui dolorem ipsum quia',
+      priceInRupees: '₹1999',
+      price: 13499,
+      MRP: '₹3999',
+      discount: 70,
+      rating: 1567,
     },
   ];
   return (
@@ -105,7 +204,7 @@ export default function Home() {
       <ProductCard products={products} />
       <Offers />
       <DealsBanner color="FD6E87" second={true} />
-      <ProductCard products={products} />
+      <ProductCard products={shopCards} />
       {/* New Arrivals Card */}
       <NewArrivals />
       <Sponsered />

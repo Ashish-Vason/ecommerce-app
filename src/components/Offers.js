@@ -5,7 +5,7 @@ const Offers = () => {
   return (
     <div className="flex items-center mt-5">
       <Image
-        src="/_next/static/media/offers.png"
+        src="https://res.cloudinary.com/dumrq9zcw/image/upload/v1736074986/Rectangle_56_hznuin.png"
         alt="offers"
         width={75}
         height={60}

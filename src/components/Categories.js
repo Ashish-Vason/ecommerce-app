@@ -4,27 +4,33 @@ import React from 'react';
 const Categories = () => {
   const categoriesData = [
     {
-      image: '/_next/static/media/Beauty.png',
+      image:
+        'https://res.cloudinary.com/dumrq9zcw/image/upload/v1736074368/jkdxxjktxrg2cdyctkns.png',
       categoryName: 'Beauty',
     },
     {
-      image: '/_next/static/media/Fashion.png',
+      image:
+        'https://res.cloudinary.com/dumrq9zcw/image/upload/v1736074986/unsplash__3Q3tsJ01nc_sfwawo.png',
       categoryName: 'Fashion',
     },
     {
-      image: '/_next/static/media/clothes.png',
+      image:
+        'https://res.cloudinary.com/dumrq9zcw/image/upload/v1736074987/unsplash_GCDjllzoKLo_sqneio.png',
       categoryName: 'Kids',
     },
     {
-      image: '/_next/static/media/Mens.png',
+      image:
+        'https://res.cloudinary.com/dumrq9zcw/image/upload/v1736074988/unsplash_xPJYL0l5Ii8_u86qvh.png',
       categoryName: 'Mens',
     },
     {
-      image: '/_next/static/media/Womens.png',
+      image:
+        'https://res.cloudinary.com/dumrq9zcw/image/upload/v1736074987/unsplash_OYYE4g-I5ZQ_tgbszl.png',
       categoryName: 'Womens',
     },
     {
-      image: '/_next/static/media/Womens.png',
+      image:
+        'https://res.cloudinary.com/dumrq9zcw/image/upload/v1736074986/unsplash__3Q3tsJ01nc_sfwawo.png',
       categoryName: 'Gifts',
     },
   ];
